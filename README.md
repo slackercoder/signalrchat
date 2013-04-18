@@ -1,4 +1,4 @@
 signalrchat
 ===========
 
-Just testing out the capabilities of SignalR. Seems cool enough.
+Just testing out the capabilities of SignalR. Seems cool enough. 
