@@ -13,17 +13,17 @@ namespace SignalRChat
         {
             Clients.All.broadcastMessage(name, message);
 
-            using (DatabaseEntities db = new DatabaseEntities())
-            {
-                Chat chat = new Chat()
-                {
-                    Name = name,
-                    Message = message
-                };
+            //using (DatabaseEntities db = new DatabaseEntities())
+            //{
+            //    Chat chat = new Chat()
+            //    {
+            //        Name = name,
+            //        Message = message
+            //    };
 
-                db.Chats.Add(chat);
-                db.SaveChanges();
-            }
+            //    db.Chats.Add(chat);
+            //    db.SaveChanges();
+            //}
         }
     }
 }
